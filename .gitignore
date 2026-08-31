@@ -1,0 +1,19 @@
+# build artifacts
+*.o
+*.d
+*.elf
+*.map
+*.lss
+*.srec
+*.eep
+Debug/
+Release/
+.vs/
+*.atsuo
+
+# 대용량 시연 영상 (YouTube 링크로 대체)
+*.mp4
+
+# 개인정보 문서
+*재학증명서*
+*출장*
