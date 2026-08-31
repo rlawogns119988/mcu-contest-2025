@@ -2,6 +2,8 @@
 
 ATtiny85 + TM1650(디스플레이 **겸 키패드 스캔**) + 부저로 구현한 4자리 비밀번호 금고입니다.
 
+![hotel safe](../../docs/demo/attiny85_hotel_safe.gif)
+
 ## 동작 사양
 
 - 비밀번호 4자리 입력 → 일치 시 `SUC` 표시 후 개방

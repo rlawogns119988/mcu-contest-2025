@@ -6,6 +6,8 @@
 - **MCU**: ATmega328P @ 16MHz (Arduino UNO R3 보드, 단 `Serial` 등 Arduino 라이브러리 미사용 — 레지스터 직접 제어)
 - **총 부품비**: 72,552원
 
+![cleaning robot](../docs/demo/cleaning_robot.gif)
+
 ## 구현 내용
 
 | 기능부 | 핀 | 제어 방식 |

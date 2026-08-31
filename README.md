@@ -5,6 +5,14 @@
 AVR(ATtiny85 / ATmega328P)과 STM32F4를 **HAL/Arduino 라이브러리 없이 레지스터 직접 제어**로
 구현한 임베디드 펌웨어 모음입니다. 모든 코드는 C로 작성했습니다.
 
+<p align="center">
+  <img src="docs/demo/stm32_hub75_mario.gif" width="45%" alt="STM32F4 + HUB75 64x64 마리오">
+  <img src="docs/demo/attiny85_stopwatch.gif" width="45%" alt="ATtiny85 스톱워치/시한폭탄">
+</p>
+<p align="center">
+  <sub>좌: STM32F4 + HUB75 64x64 게임 (본선 2일차) &nbsp;/&nbsp; 우: ATtiny85 스톱워치·시한폭탄 (본선 1일차)</sub>
+</p>
+
 ---
 
 ## 한눈에 보기
@@ -51,9 +59,12 @@ MCU-Contest-2025/
 └── docs/                                     공용 하드웨어 모듈 회로도
 ```
 
-## 시연 영상
+## 시연
 
-<!-- 유튜브에 '미등록(Unlisted)'으로 올린 뒤 아래 링크를 채우세요 -->
-- 예선 로봇청소기 동작 영상: (링크)
-- 본선 1일차 A/B 동작 영상: (링크)
-- 본선 2일차 Arduino / STM32 동작 영상: (링크)
+| | |
+|---|---|
+| **예선 — 화장실용 로봇청소기**<br>블루투스 앱 원격 조종 주행 | ![cleaning robot](docs/demo/cleaning_robot.gif) |
+| **본선 1일차 A — 스톱워치 / 시한폭탄**<br>TM1650 7세그, ADC 저항분압 버튼 | ![stopwatch](docs/demo/attiny85_stopwatch.gif) |
+| **본선 1일차 B — 호텔 금고**<br>4자리 비밀번호 입력 및 오입력 피드백 | ![hotel safe](docs/demo/attiny85_hotel_safe.gif) |
+| **본선 2일차 — HUB75 게임 (ATmega328P)**<br>2KB SRAM 라인버퍼 렌더링 | ![arduino mario](docs/demo/arduino_hub75_mario.gif) |
+| **본선 2일차 — HUB75 게임 (STM32F4)**<br>동일 게임을 32비트 ARM으로 포팅 | ![stm32 mario](docs/demo/stm32_hub75_mario.gif) |

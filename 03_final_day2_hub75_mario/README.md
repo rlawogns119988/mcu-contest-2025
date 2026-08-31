@@ -11,6 +11,10 @@
 | 사운드 | 타이머 인터럽트 사각파 | TIM4 (PSC=83 → 1MHz 카운트) 인터럽트 사각파 |
 | 입력 | TM1650 키패드 (소프트 I2C, A4/A5) | TM1650 키패드 (소프트 I2C, PB6/PB7) |
 
+| ATmega328P | STM32F4 |
+|---|---|
+| ![arduino](../docs/demo/arduino_hub75_mario.gif) | ![stm32](../docs/demo/stm32_hub75_mario.gif) |
+
 ## 핵심 구현
 
 ### HUB75 스캔 드라이버 (64x32 패널 2장 체인 = 64x64, 1/16 스캔)

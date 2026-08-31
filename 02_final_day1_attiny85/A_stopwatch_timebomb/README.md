@@ -2,6 +2,8 @@
 
 ATtiny85 + TM1650 4-digit 7세그먼트 + 피에조 부저로 구현한 **모드 전환형 타이머**입니다.
 
+![stopwatch](../../docs/demo/attiny85_stopwatch.gif)
+
 ## 핀 맵
 
 | 핀 | 용도 |
